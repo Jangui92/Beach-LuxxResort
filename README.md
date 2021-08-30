@@ -67,4 +67,5 @@ The Navigation bar will be holding the home and about page as well as experience
 >## *Future Updates*
 - [ ] May remove gallery page if requires a new schema
 - [ ] Add deployment link
-- [ ]
+- [ ] Add credits
+- [ ] Add final product screenshots
