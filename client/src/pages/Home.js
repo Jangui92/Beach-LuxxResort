@@ -1,8 +1,6 @@
 import React from 'react'
-import './App.css'
 
-function Home(){
-  return(
-    
-  )
+function Home() {
+  return
 }
+export default Home

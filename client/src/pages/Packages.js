@@ -1,8 +1,14 @@
 import React from 'react'
-import './App.css'
 
-function Packages(){
-  return(
-    
+function Packages() {
+  // loop through array
+  return (
+    <div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
   )
 }
+export default Packages

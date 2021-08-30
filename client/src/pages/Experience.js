@@ -1,8 +1,14 @@
 import React from 'react'
-import './App.css'
 
-function Experience(){
-  return(
-  
+function Experience() {
+  return (
+    <div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
   )
 }
+
+export default Experience
