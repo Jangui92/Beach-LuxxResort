@@ -3,12 +3,10 @@ import axios from 'axios'
 
 const SubmitReviewCards = ({ review }) => {
   const SubmitReviewCards = (props) => {
-    const deleteReview = async () =>
+    const deleteReview = () =>
       await axios.delete(`http://localhost:3001/api/${review.id}`)
   }
-  useEffect(() => {
-    deleteReview()
-  }, [])
+
   return (
     <div className="card">
       <div>
