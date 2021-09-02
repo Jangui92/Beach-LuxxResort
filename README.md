@@ -31,19 +31,19 @@ The Navigation bar will be holding the home and about page as well as experience
 ####
 **Pages**
 - Home & About page
-- Experience 
+- Submit Review
 - Packages 
-- Review page (Post, delete) Leave review for company
+
 
 **Components**
 
 - Header (Navbar)
-- Experience Cards
+- SubmitReviewCards
 - Package Cards
 
 **Models**
 - Review (get, post, delete)
-- Comments (get, post)(post-mvp-delete)
+- Packages (get)
 
 
 >## *Screenshots*
@@ -51,9 +51,9 @@ The Navigation bar will be holding the home and about page as well as experience
 
 
 >## *Credits*
-*Coming Soon*
+[Google Font & Images](Google.com)
 
 >## *Future Updates*
 - [ ] Add deployment link
-- [ ] Add credits
+- [x] Add credits
 - [ ] Add final product screenshots
