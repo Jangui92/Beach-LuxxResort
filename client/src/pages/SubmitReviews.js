@@ -17,14 +17,16 @@ const SubmitReviews = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     const parseForm = (e) => {
+      console.log(e)
       return {
-        name: e.target[1].value,
-        title: e.target[3].value,
-        contents: e.target[5].value,
-        popularityRatings: e.target[7].value
+        name: e.target[0].value,
+        title: e.target[1].value,
+        content: e.target[2].value,
+        popularityRating: e.target[3].value
       }
     }
     const parsedForm = parseForm(e)
+    console.log(parsedForm)
     axios({
       method: 'post',
       url: 'http://localhost:3001/api/reviews',
@@ -55,7 +57,7 @@ const SubmitReviews = () => {
         <p>Review</p>
         <input name="content" type="text" />
         <p>Rating</p>
-        <input name="popularityRating" type="Number" />
+        <input name="popularityRating" type="text" />
         <button type="submit">Submit</button>
       </form>
       {reviews.map((rev) => (
