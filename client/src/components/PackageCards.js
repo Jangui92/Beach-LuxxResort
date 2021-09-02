@@ -1,10 +1,11 @@
 import React from 'react'
 
 const PackageCards = (props) => {
+  console.log(props)
   return (
     <div className="package-card">
       <div>
-        <img className="img" src={props.image} alt="image card" />
+        <img src={props.image} alt="card" />
         <p>{props.name}</p>
         <p> {props.content}</p>
         <p> {props.price}</p>

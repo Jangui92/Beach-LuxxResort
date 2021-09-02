@@ -7,24 +7,27 @@ const Packages = () => {
 
   const getAllPackages = async () => {
     const res = await axios.get('http://localhost:3001/api/packages')
-    setAllPackages(res.data.packages)
+    setAllPackages(res.data.pack)
   }
 
   useEffect(() => {
     getAllPackages()
+    console.log(packages)
   }, [])
 
   return (
     <div>
-      <div className="package-container" />
-      {packages.map((package) => (
-        <PackageCards
-          image={package.image}
-          name={package.name}
-          content={package.content}
-          price={package.price}
-        />
-      ))}
+      <section>
+        <div className="package-container" />
+        {packages.map((p) => (
+          <PackageCards
+            image={p.image}
+            name={p.name}
+            content={p.content}
+            price={p.price}
+          />
+        ))}
+      </section>
     </div>
   )
 }
