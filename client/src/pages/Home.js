@@ -2,7 +2,7 @@ function Home() {
   return (
     <div>
       <section className="home-page-font">
-        <div>Beach LuxxResort</div>
+        <div className="center-beach">Beach LuxxResort</div>
         <div>Accommodations</div>
       </section>
 

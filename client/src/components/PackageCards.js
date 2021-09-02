@@ -1,15 +1,18 @@
 import React from 'react'
+import { Card } from 'react-bootstrap'
 
 const PackageCards = (props) => {
   console.log(props)
   return (
     <div className="package-card">
-      <div>
-        <img src={props.image} alt="card" />
-        <p>{props.name}</p>
-        <p> {props.content}</p>
-        <p> {props.price}</p>
-      </div>
+      <Card style={{ width: '18rem' }}>
+        <Card.Img variant="top" src={props.image} alt="card" />
+        <Card.Body>
+          <Card.Title>{props.name}</Card.Title>
+          <Card.Text>{props.content}</Card.Text>
+          <Card.Text>{props.price}</Card.Text>
+        </Card.Body>
+      </Card>
     </div>
   )
 }
