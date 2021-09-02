@@ -1,9 +1,8 @@
 function Home() {
   return (
     <div>
-      <section>
-        Background image
-        <div>Home Page</div>
+      <section className="home-page-font">
+        <div>Beach LuxxResort</div>
         <div>Accommodations</div>
       </section>
 

@@ -5,3 +5,27 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+.home-page-font, .App {
+  font-size: 1rem;
+  font-family: 'Allison', cursive;
+}
+
+li {
+  list-style: none;
+  margin: 1rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f0ca98;
+  color: grey;
+  padding: 1rem;
+}
+li {
+  text-decoration: none;
+  color: #f8f7f4;
+  font-size: 20px;
+  font-weight: 600;
+}
