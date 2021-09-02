@@ -10,4 +10,6 @@ router.post('/reviews', controllers.addReviews)
 
 router.delete('/reviews/:id', controllers.deleteReview)
 
+router.get('/packages', controllers.getAllPackages)
+
 module.exports = router

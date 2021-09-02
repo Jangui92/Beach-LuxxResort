@@ -1,16 +1,26 @@
-function Packages() {
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
+import PackageCards from '../components/PackageCards'
+
+const Packages = () => {
+  const [packages, setPackages] = useState([])
+
+  const getAllPackages = async () => {
+    const res = await axios.get('http://localhost:3001/api/packages')
+    setPackages(res.data.rev)
+  }
+
+  useEffect(() => {
+    getAllPackages()
+  }, [])
+
+
   return (
-    <div>
-      <h2>Packages</h2>
-      <div>
-        <section className="package-container">
-          <div>Water Bungalow</div>
-          <div>Luxx Bungalow</div>
-          <div>Exotic Bungalow</div>
-          <div>Exotic Luxx Bungalow</div>
-        </section>
-      </div>
-    </div>
+    
+        {packages.map((pack) => (
+        <SubmitReviewCards packages={pack} /> 
+        ))} 
+        
   )
 }
 export default Packages
