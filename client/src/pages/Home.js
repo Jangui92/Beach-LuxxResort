@@ -1,6 +1,10 @@
-import React from 'react'
-
 function Home() {
-  return
+  return (
+    <section>
+      Background image
+      <div>Home Page</div>
+      <div>Accommodations</div>
+    </section>
+  )
 }
 export default Home
