@@ -1,25 +1,31 @@
-// import React, { useState, useEffect } from 'react'
-// import axios from 'axios'
-// import PackageCards from '../components/PackageCards'
+import React, { useState, useEffect } from 'react'
+import PackageCards from '../components/PackageCards'
+import axios from 'axios'
 
-// const Packages = () => {
-//   const [packages, setPackages] = useState([])
+const Packages = () => {
+  const [packages, setAllPackages] = useState([])
 
-//   const getAllPackages = async () => {
-//     const res = await axios.get('http://localhost:3001/api/packages')
-//     setPackages(res.data.packages)
-//   }
+  const getAllPackages = async () => {
+    const res = await axios.get('http://localhost:3001/api/packages')
+    setAllPackages(res.data.packages)
+  }
 
-//   useEffect(() => {
-//     getAllPackages()
-//   }, [])
+  useEffect(() => {
+    getAllPackages()
+  }, [])
 
-//   return (
-
-//         {packages.map((package) => (
-//         <PackageCards packages={package} />
-//     ))}
-
-//   )
-// }
-// export default Packages
+  return (
+    <div>
+      <div className="package-container" />
+      {packages.map((package) => (
+        <PackageCards
+          image={package.image}
+          name={package.name}
+          content={package.content}
+          price={package.price}
+        />
+      ))}
+    </div>
+  )
+}
+export default Packages
