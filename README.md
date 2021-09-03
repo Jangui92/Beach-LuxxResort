@@ -22,7 +22,7 @@ If you would like to take a look at ***Beach-LuxxResort's*** development process
 >## *Details* 
 Imagine taking a trip where everything is dedicated to making sure that you are relaxed. ***Beach-Luxx Resort*** is a website for those looking to get-away and pretend the worries of the world don't exist. We believe that the best way to get-away successfully is in ***Luxx***ury. 
 ### Client Details
-Upon opening the webpage, the client is greeted with a tempting visual of clear blue water and the resort sitting on a white sandy beach. The home and welcome page provides details of our most popular accomodations to visitors such as: Wifi, free parking, complimentary breakfast, early checkout, late checkout and our best rates for that season.
+Upon opening the webpage, the client is greeted with a tempting visual of clear blue water and the resort sitting on a white sandy beach. The home and welcome page provides details of our most popular accomodations to visitors such as: Wifi, free parking, complimentary breakfast, early checkout and late checkout.
 
 ### Development Process
 The Navigation bar will be holding the home and about page as well as experience, packages and review page. I will be utilizing ***Flexbox*** in all my Pages as they have displays. Review will have a ***Schema*** which will both display on the front-end. ***Post*** ***Get*** and ***Delete*** operations will be used in Review & comments page. All pages will be navigated using ***React Router***.
