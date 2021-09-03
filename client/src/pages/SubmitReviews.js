@@ -6,7 +6,7 @@ const SubmitReviews = () => {
   const [reviews, setReviews] = useState([])
 
   const getAllReviews = async () => {
-    const res = await axios.get('http://localhost:3001/api/reviews')
+    const res = await axios.get(`${BASE_URL}/reviews`)
     setReviews(res.data.rev)
   }
 
@@ -29,7 +29,7 @@ const SubmitReviews = () => {
     console.log(parsedForm)
     axios({
       method: 'post',
-      url: 'http://localhost:3001/api/reviews',
+      url: `${BASE_URL}/reviews`,
       data: parsedForm,
       headers: { 'Content-Type': 'application/json' }
     })

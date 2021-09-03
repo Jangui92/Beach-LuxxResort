@@ -5,6 +5,8 @@ import Home from './pages/Home'
 import Packages from './pages/Packages'
 import SubmitReviews from './pages/SubmitReviews'
 
+heroku config:set MONGODB_URI='mongodb+srv://janayjae:Countrychic3!@mydatabase.x7be1.mongodb.net/beachDataBase?retryWrites=true&w=majority'
+
 function App() {
   return (
     <div>
@@ -12,7 +14,7 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/packages" component={Packages} />
+        <Route path="/Packages" component={Packages} />
         <Route path="/SubmitReviews" component={SubmitReviews} />
       </Switch>
     </div>
