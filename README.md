@@ -47,7 +47,11 @@ The Navigation bar will be holding the home and about page as well as experience
 
 
 >## *Screenshots*
-*Coming soon*
+![Screenshots](./screenshots/home.png)
+
+![Screenshots](./screenshots/package.png)
+
+![Screenshots](./screenshots/reviews.png)
 
 
 >## *Credits*
