@@ -17,8 +17,9 @@ const Packages = () => {
 
   return (
     <div>
-      <section>
-        <div className="package-container" />
+      <section className="package-container">
+        <div />
+
         {packages.map((p) => (
           <PackageCards
             image={p.image}

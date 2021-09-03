@@ -44,7 +44,7 @@ const SubmitReviews = () => {
   }
 
   return (
-    <div>
+    <div className="move-container">
       <h1 className="submit-review">
         We would love your feedback on our luxury rooms.
       </h1>

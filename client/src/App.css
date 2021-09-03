@@ -1,44 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
 
-.welcome-picture {
-
-}
 Card {
   display: grid;
   flex-wrap: wrap;
 }
 
-
-
-.home-page-font, .App , .center-beach {
-  font-size: 1rem;
-  font-family: 'Allison', cursive;
-  align-content: center;
+.move-container {
+  justify-content: center;
 }
 
-
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: #f0ca98;
-  color: grey;
-  padding: 10px;
-}
-li {
-  text-decoration: none;
-  color: #f8f7f4;
-  font-size: 20px;
-  font-weight: 600;
-  list-style: none;
-  margin: 1rem;
-}
-
-.submit-review,h4, .form-container {
-align-content: center;
+.package-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 }
 
 .home-font {
   font-family: 'Allison', cursive;
   font-weight: 600;
+}
+.home-name {
+  font-family: 'Allison', cursive;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
 }
