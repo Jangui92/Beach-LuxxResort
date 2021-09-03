@@ -4,7 +4,7 @@
 
 #### 08/29/2021
 
-| [GitHub](https://github.com/Jangui92) | [LinkedIn](https://www.linkedin.com/in/janay-anguiano-778717215/) |
+| [GitHub](https://github.com/Jangui92) | [LinkedIn](https://www.linkedin.com/in/janay-anguiano-778717215/) | [Heroku](https://protected-depths-60892.herokuapp.com/)
 
 
 >## *Getting Started*
@@ -58,6 +58,6 @@ The Navigation bar will be holding the home and about page as well as experience
 [Google Font & Images](Google.com)
 
 >## *Future Updates*
-- [ ] Add deployment link
+- [x] Add deployment link
 - [x] Add credits
 - [x] Add final product screenshots
