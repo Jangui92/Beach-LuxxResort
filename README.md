@@ -60,4 +60,4 @@ The Navigation bar will be holding the home and about page as well as experience
 >## *Future Updates*
 - [ ] Add deployment link
 - [x] Add credits
-- [ ] Add final product screenshots
+- [x] Add final product screenshots
