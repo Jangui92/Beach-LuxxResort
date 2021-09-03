@@ -1,10 +1,7 @@
 function Home() {
   return (
     <div>
-      <section className="home-page-font">
-        <div className="center-beach">Beach LuxxResort</div>
-        <div>Accommodations</div>
-      </section>
+      <section className="home-page-font"></section>
 
       <img
         className="welcome-picture"

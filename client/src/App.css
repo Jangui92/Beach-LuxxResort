@@ -37,3 +37,8 @@ li {
 .submit-review,h4, .form-container {
 align-content: center;
 }
+
+.home-font {
+  font-family: 'Allison', cursive;
+  font-weight: 600;
+}

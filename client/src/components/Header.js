@@ -1,44 +1,29 @@
 import React from 'react'
-import { Nav } from 'react-bootstrap'
-import { NavBar, NavLink } from 'react-router-dom'
+import { Navbar, Container, NavLink, Nav } from 'react-bootstrap'
 
 function Header() {
   return (
-    <ul>
-      <NavBar bg="dark" variant="dark">
+    <header>
+      <Navbar sticky="top" bg="dark" variant="dark">
         <Container>
-          <NavBar.Brand to="/">NavBar</NavBar.Brand>
-          <Nav className="">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#packages">Packages</Nav.Link>
-            <Nav.Link href="#submit reviews">Submit Reviews</Nav.Link>
+          <Navbar.Brand to="/" className="home-font">
+            {' '}
+            Beach Luxx-Resort
+          </Navbar.Brand>
+          <Nav className="navBar">
+            <NavLink to="/" className="home-font">
+              Home
+            </NavLink>
+            <NavLink to="/Packages" className="home-font">
+              Packages
+            </NavLink>
+            <NavLink to="/SubmitReviews" className="home-font">
+              Submit Reviews
+            </NavLink>
           </Nav>
         </Container>
-      </NavBar>
-      <br />
-      <NavBar bg="dark" variant="dark">
-        <Container>
-          <NavBar.Brand to="/">NavBar</NavBar.Brand>
-          <Nav className="">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#packages">Packages</Nav.Link>
-            <Nav.Link href="#submit reviews">Submit Reviews</Nav.Link>
-          </Nav>
-        </Container>
-      </NavBar>
-      <br />
-      <NavBar bg="dark" variant="dark">
-        <Container>
-          <NavBar.Brand to="/">NavBar</NavBar.Brand>
-          <Nav className="">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#packages">Packages</Nav.Link>
-            <Nav.Link href="#submit reviews">Submit Reviews</Nav.Link>
-          </Nav>
-        </Container>
-      </NavBar>
-      <br />
-    </ul>
+      </Navbar>
+    </header>
   )
 }
 
