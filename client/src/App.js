@@ -5,7 +5,6 @@ import Home from './pages/Home'
 import Packages from './pages/Packages'
 import SubmitReviews from './pages/SubmitReviews'
 
-heroku config:set MONGODB_URI='mongodb+srv://janayjae:Countrychic3!@mydatabase.x7be1.mongodb.net/beachDataBase?retryWrites=true&w=majority'
 
 function App() {
   return (
