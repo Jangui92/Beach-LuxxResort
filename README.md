@@ -8,7 +8,7 @@
 
 
 >## *Getting Started*
-If you would like to take a look at ***Beach-LuxxResort's*** development process in Trello Board, please Click [Here](https://trello.com/b/yx2LuSLt/beach-resort). [Beach-LuxxResort] is deployed on Heroku, take a look.
+If you would like to take a look at ***Beach-LuxxResort's*** development process in Trello Board, please Click [Here](https://trello.com/b/yx2LuSLt/beach-resort). [Beach-LuxxResort](https://protected-depths-60892.herokuapp.com/) is deployed on Heroku, take a look.
 
 
 > ## *Technologies used*
@@ -19,7 +19,7 @@ If you would like to take a look at ***Beach-LuxxResort's*** development process
 - Heroku
 
 
->## *Details* 
+># *Details* 
 Imagine taking a trip where everything is dedicated to making sure that you are relaxed. ***Beach-Luxx Resort*** is a website for those looking to get-away and pretend the worries of the world don't exist. We believe that the best way to get-away successfully is in ***Luxx***ury. 
 ### Client Details
 Upon opening the webpage, the client is greeted with a tempting visual of clear blue water and the resort sitting on a white sandy beach. The home and welcome page provides details of our most popular accomodations to visitors such as: Wifi, free parking, complimentary breakfast, early checkout and late checkout.
@@ -61,3 +61,6 @@ The Navigation bar will be holding the home and about page as well as experience
 - [x] Add deployment link
 - [x] Add credits
 - [x] Add final product screenshots
+- [ ] Create Booking button
+- [ ] Add more Packages
+- [ ] Pacakge cards evenly
