@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import SubmitReviewCards from '../components/SubmitReviewCards'
-import {BASE_URL} from '../globals'
+import { BASE_URL } from '../globals'
 
 const SubmitReviews = () => {
   const [reviews, setReviews] = useState([])

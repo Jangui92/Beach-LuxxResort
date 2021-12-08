@@ -8,7 +8,7 @@ function Header() {
         <Container>
           <Navbar.Brand to="/">Beach Luxx-Resort</Navbar.Brand>
           <Nav className="">
-            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/">Home Page</Nav.Link>
             <Nav.Link href="/Packages">Packages</Nav.Link>
             <Nav.Link href="/SubmitReviews">Submit Reviews</Nav.Link>
           </Nav>
