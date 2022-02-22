@@ -13,6 +13,7 @@ If you would like to take a look at ***Beach-LuxxResort's*** development process
 
 > ## *Technologies used*
 - Mongoose
+- MongoDB
 - Express
 - React
 - Node
